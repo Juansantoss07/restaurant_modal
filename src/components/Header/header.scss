@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.btn-menu, .btn-contact{
+    display: flex;
+    justify-content: flex-start;
+    padding: 2em 1em 0 1em;
+}
+
+.btn-contact button,
+.btn-menu button{
+    padding: 1rem 1.5rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn-contact button:hover,
+.btn-menu button:hover{
+    background-color: #CCCCCC;
+    color: #000;
+}

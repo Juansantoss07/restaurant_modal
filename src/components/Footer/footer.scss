@@ -1,0 +1,25 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    width: 100%;
+    color: #fff;
+}
+
+.data-footer, .address-footer{
+    margin-bottom: 1rem;
+}
+
+
+.data-footer{
+    font-size: 24px;
+}
+
+.address-footer {
+    font-size: 18px;
+}
+
+.info-footer{
+    font-size: 15px;
+}
