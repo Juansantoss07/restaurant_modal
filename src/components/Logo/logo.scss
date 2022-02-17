@@ -1,3 +1,5 @@
+@import "/src/sass/base.scss";
+
 .logo{
     display: flex;
     width: 100%;
@@ -7,7 +9,7 @@
 }
 
 span{
-    color: #fff;
+    color: $white;
     font-weight: 500;
     font-size: 64px;
 }
